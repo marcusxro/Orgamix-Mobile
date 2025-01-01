@@ -1,5 +1,7 @@
-import Icon from '@react-native-vector-icons/fontawesome';
+import FontAwesome from '@expo/vector-icons/FontAwesome';
 
-export default function MyComponent() {
-  return <Icon name="eye" size={30} color="blue" />;
+export default function EyeIcon() {
+    return (
+        <FontAwesome name="eye" size={15} color="#888" />
+    )
 }
